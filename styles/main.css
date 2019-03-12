@@ -2,6 +2,7 @@ html, body {
     margin: 0;
 }
 
+
 .flexContainer {
     display: flex;
     margin: 0;
@@ -26,14 +27,20 @@ h1 {
 .nav {
     list-style: none;
     border-bottom: 4px solid black;
+    padding: 20px;
+    font-size: 40px;
+    
+
 
 }
+
 
 .nav a {
     text-decoration: none;
     display: inline-block;
     padding: 10px;
 }
+
 a:hover{
     color:yellow;
 }
@@ -165,7 +172,7 @@ h3, p {
 }
 
 .wcolor {
-    color: white;
+    color: black;
 }
 
 .fcolor {
