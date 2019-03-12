@@ -39,7 +39,7 @@ h1 {
 .nav a {
     text-decoration: none;
     display: inline-block;
-    padding: 40px;
+    padding: 30px;
 }
 
 a:hover{
@@ -48,13 +48,14 @@ a:hover{
 
 div {
     flex-wrap: wrap;
-    display: inline-block;    
+    display: inline-block;  
+    margin-bottom: 2px;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 25px;
+    padding: 20px;
 }
 
 .tagline {
@@ -79,11 +80,10 @@ div {
 }
 
 .banner {
-    background: url(../images/coworking.jpg) center center no-repeat;
-    background-size: cover;
     overflow: hidden;
-    padding: 3%;
+    padding: 2%;
     box-shadow: inset 0 0 5px rgba(0, 0, 0, .75);
+
 }
 
 section {
@@ -91,13 +91,12 @@ section {
 }
 
 .blurb {
-
-    background: rgba(255, 255, 255, .8);
+    background: red(255, 255, 255, .8);
     width: 34%;
     margin: 0 auto;
-    padding: 35px;
+    padding: 55px;
     float: right;
-    box-shadow: 0 0 5px rgba(0, 0, 0, .75);
+    box-shadow: 0 0 15px rgba(0, 0, 0, .75);
 }
 .touts {
     display: flex;
