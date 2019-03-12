@@ -142,34 +142,19 @@ section {
 h3, p {
     font-family: 'Merriweather', serif;
     font-size: 28px;
-
 }
 
-.col {
-    width: 8.3333%;
-    /* min-height: 100%; */
+.contianer{
+    padding: 50px;
+    justify-content: end;
 }
 
 .col-2 {
-    width: calc(2 * 8.3333%);
+    width: 50px;
 }
 
 .col-3 {
-    width: calc(3 * 8.3333%);
-}
-
-
-.black {
-    background-color: black;
-}
-
-.yellow {
-    background-color: black;
-
-}
-
-.grey {
-    background-color: grey;
+    width: calc(2 * 8.3333%);
 }
 
 .wcolor {
