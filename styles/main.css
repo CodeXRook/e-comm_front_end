@@ -2,6 +2,16 @@ html, body {
     margin: 0;
 }
 
+.bghome{
+    background-image: url("architecture-building-cars-419235.jpg");
+    background-position: center;
+    height: 100%; 
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+  
+}
+
 .Navbar{
 width: 100%;
 display: inline-block;
