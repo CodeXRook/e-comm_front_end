@@ -5,18 +5,23 @@ html, body {
 .bghome{
     background-image: url("architecture-building-cars-419235.jpg");
     background-position: center;
-    height: 100%; 
+    height: 50%; 
    background-repeat: no-repeat;
    background-size: cover;
   
-  
 }
+
 
 .Navbar{
 width: 100%;
 display: inline-block;
-
 }
+
+.backdrop{
+    width: 100%;
+    height: 10%;
+}
+
 
 .flexContainer {
     display: flex;
@@ -101,13 +106,12 @@ section {
 }
 
 .blurb {
-    background: red(255, 255, 255, .8);
-    width: 34%;
-    margin: 0 auto;
-    padding: 55px;
-    float: right;
+    width: 50%;
+    height: 100;
+    float: center;
     box-shadow: 0 0 15px rgba(0, 0, 0, .75);
 }
+
 .touts {
     display: flex;
    
