@@ -2,6 +2,19 @@ html, body {
     margin: 0;
 }
 
+.bg{ 
+    /* The image used */
+    background-image: url("assets/architecture-billboards-buildings-1095901(1).jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 .Navbar{
 width: 100%;
 display: inline-block;
