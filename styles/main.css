@@ -58,6 +58,14 @@ a:hover{
     color:yellowgreen;
 }
 
+.over-image{
+    background-image: url("./assets/architecture-building-cars-419235.jpg");
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-size: 100% 100%;
+}
+
 .overlay-image {
     position: relative;
     width: 100%;
@@ -142,12 +150,10 @@ section {
 }
 
 .tout {
-    padding: 10px;
-    margin: 10px;
-    margin-left: 5%;
-    border: 10px;
+    margin: 80px;
+    align-content: center;
     display: inline-flex;
-    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .15);
+    box-shadow: inset -1px  0 rgba(0, 0, 0, .15);
     font-family: 'Merriweather', sans-serif;
 }
 
