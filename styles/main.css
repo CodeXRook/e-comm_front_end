@@ -2,15 +2,6 @@ html, body {
     margin: 0;
 }
 
-.bghome{
-    background-image: url("architecture-building-cars-419235.jpg");
-    background-position: center;
-    height: 50%; 
-   background-repeat: no-repeat;
-   background-size: cover;
-  
-}
-
 
 .Navbar{
 width: 100%;
@@ -70,15 +61,18 @@ a:hover{
 .overlay-image {
     position: relative;
     width: 100%;
-   }
+    height: 500px;
+    background-image: url("../assets/ads-architecture-billboards-802024.jpg");
+    background-size: 100% 100%;
+}
    /* Original image */
-   .overlay-image .image {
+.overlay-image .image {
     display: block;
     width: 100%;
     height: auto;
-   }
+}
    /* Original text overlay */
-   .overlay-image .text {
+.overlay-image .text {
     color: #fff;
     font-size: 30px;
     line-height: 1.5em;
@@ -89,7 +83,7 @@ a:hover{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
-   }
+}
 
 
 div {
@@ -130,7 +124,6 @@ div {
     float: center;
     padding: 2%;
     box-shadow: inset 0 0 5px rgba(0, 0, 0, .75);
-
 }
 
 section {
@@ -146,10 +139,9 @@ section {
 
 .touts {
     display: flex;
-   
 }
+
 .tout {
-   
     padding: 10px;
     margin: 10px;
     margin-left: 5%;
@@ -157,7 +149,6 @@ section {
     display: inline-flex;
     box-shadow: inset -1px 0 0 rgba(0, 0, 0, .15);
     font-family: 'Merriweather', sans-serif;
-   
 }
 
 .tout .button {
@@ -165,7 +156,6 @@ section {
 }
 
 .tout:last-child {
-
     box-shadow: none;
 }
 
@@ -216,37 +206,23 @@ h3, p {
     box-sizing: border-box;
   }
   
-  .bg-img {
-    /* The image used */
-    background-image: url("assets/ads-architecture-billboards-802024.jpg");
-  
-    /* Control the height of the image */
-    min-height: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-size: cover;
-    position: relative;
-  }
-  
   /* Add styles to the form container */
-  .container {
+.container {
     position: absolute;
     right: 0;
     margin: 20px;
     max-width: 100%;
     padding: 16px;
     background-color:white;
-  }
-  
+}
   /* Full-width input fields */
-    input[type=text], input[type=password] {
+input[type=text], input[type=password] {
     width: 100%;
     padding: 15px;
     margin: 5px 0 22px 0;
     border: none;
     background: yellowgreen;
-  }
+}
   
   input[type=text]:focus, input[type=password]:focus {
     background-color:black;
@@ -299,3 +275,5 @@ footer {
    .overlay-image:hover .hover {
     opacity: 1;
    }
+
+   
