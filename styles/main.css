@@ -283,7 +283,10 @@ footer {
    }
 
    .input{
-       height: 50%;
+    position:relative;  
+    left:170%;
+    top:25%;
+    width:30%;
    }
 
    
