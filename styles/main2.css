@@ -28,10 +28,10 @@
   }
   
   /* Hide the images by default */
-  .mySlides {
+  /* .mySlides {
     display: all;
   }
-  
+   */
   /* Next & previous buttons */
   .prev, .next {
     cursor: pointer;
