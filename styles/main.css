@@ -205,20 +205,13 @@ h3, p {
 
 .fcolor {
     color: yellowgreen;
-
 }
 
-* {
-    box-sizing: border-box;
-  }
-  
   /* Add styles to the form container */
 .container {
-    position: absolute;
-    right: 0;
-    margin: 20px;
+    align-items: center;
     max-width: 100%;
-    padding: 16px;
+    padding: 4px;
     background-color:white;
 }
   /* Full-width input fields */
