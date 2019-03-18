@@ -55,7 +55,7 @@ h1 {
 }
 
 a:hover{
-    color:yellowgreen;
+    color:turquoise;
 }
 
 .over-image{
@@ -165,21 +165,6 @@ section {
     box-shadow: none;
 }
 
-.button {
-    background: #C6C6C6;
-    font-family: 'Oswald', sans-serif;
-    text-decoration: none;
-    letter-spacing: 1px;
-    font-weight: bolder;
-    color: black;
-    display:block;
-    background:yellowgreen;
-    text-align: center;
-    padding: 23px;
-    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, .2);
-    border-radius: 5px;
-    text-transform: uppercase;
-}
 
 h3, p {
     font-family: 'Merriweather', serif;
@@ -204,30 +189,17 @@ h3, p {
 }
 
 .fcolor {
-    color: yellowgreen;
+    color: turquoise;
 }
 
   /* Add styles to the form container */
-/* .container {
+.container {
     align-items: center;
     max-width: 100%;
     padding: 4px;
-    background-color:white;
-} */
-  /* Full-width input fields */
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    border: none;
-    background: yellowgreen;
+    background-color:yellowgreen;
 }
-  
-  input[type=text]:focus, input[type=password]:focus {
-    background-color:black;
-    outline: none;
-  }
-  
+ 
   /* Set a style for the submit button */
   .btn {
     background-color: #4CAF50;
@@ -281,5 +253,28 @@ footer {
     top:25%;
     width:30%;
    }
+
+   .button { 
+    display: inline-block;      
+    width: 150px; 
+    padding: 20px; 
+    text-align: center; 
+    background: whiteSmoke;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    border: 1px solid #888;
+}
+
+
+.pulse{
+    animation-name: pulse_animation;
+    animation-duration: 5000ms;
+    transform-origin:70% 70%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
 
    
