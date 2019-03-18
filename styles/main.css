@@ -18,11 +18,11 @@ float: top;
     display: flex;
     margin: 0;
 }
-
+/* 
 h1 {
     font-family: 'Merriweather', sans-serif;
-    font-size: 32px;
-}
+    font-size: 100px;
+} */
 
 .flexItem {
     flex: 1;
@@ -171,22 +171,22 @@ h3, p {
     font-size: 28px;
 }
 
-.contianer1{
-    padding: 10px;
-    justify-content: end;
-}
-
-.col-2 {
-    width: 50px;
-}
 
 .col-3 {
     width: calc(2 * 8.3333%);
+    display: inline-block; 
+    text-align: center;
+    background: whiteSmoke;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    border: 1px solid #888;
+}
 }
 
-.wcolor {
+/* .wcolor {
     color: black;
-}
+} */
 
 .fcolor {
     color: turquoise;
